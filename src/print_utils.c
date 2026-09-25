@@ -2,19 +2,19 @@
 #include <string.h>
 #include "common.h"
 
-// È«¾Ö¾ÓÖÐº¯Êý£¨±ê×¼80¿í¶È£©
+// å…¨å±€å±…ä¸­å‡½æ•°ï¼ˆæ ‡å‡†80å®½åº¦ï¼‰
 void print_screen_center(void) {
     int pad = (SCREEN_WIDTH - BOX_WIDTH) / 2;
     for (int i = 0; i < pad; i++) printf(" ");
 }
 
-// ×Ô¶¨Òå¿í¶È¾ÓÖÐº¯Êý£¨Ò½ÁÆ¼ÇÂ¼×¨ÓÃ£©
+// è‡ªå®šä¹‰å®½åº¦å±…ä¸­å‡½æ•°ï¼ˆåŒ»ç–—è®°å½•ä¸“ç”¨ï¼‰
 void print_screen_center_ex(int boxWidth) {
     int pad = (SCREEN_WIDTH - boxWidth) / 2;
     for (int i = 0; i < pad; i++) printf(" ");
 }
 
-// ´òÓ¡¾ÓÖÐ×Ö·û´®
+// æ‰“å°å±…ä¸­å­—ç¬¦ä¸²
 void print_centered(const char* str, int width) {
     int len = (int)strlen(str);
     int left = (width - len) / 2;
@@ -22,7 +22,7 @@ void print_centered(const char* str, int width) {
     printf("%*s%s%*s", left, "", str, right, "");
 }
 
-// ±ê×¼±êÌâ¿ò£¨80¿í¶È£©
+// æ ‡å‡†æ ‡é¢˜æ¡†ï¼ˆ80å®½åº¦ï¼‰
 void print_title_box(const char* title) {
     print_screen_center();
     printf("+");
@@ -38,7 +38,7 @@ void print_title_box(const char* title) {
     printf("+\n");
 }
 
-// ×Ô¶¨Òå¿í¶È±êÌâ¿ò£¨Ò½ÁÆ¼ÇÂ¼120¿í¶È×¨ÓÃ£©
+// è‡ªå®šä¹‰å®½åº¦æ ‡é¢˜æ¡†ï¼ˆåŒ»ç–—è®°å½•120å®½åº¦ä¸“ç”¨ï¼‰
 void print_title_box_ex(const char* title, int boxWidth) {
     print_screen_center_ex(boxWidth);
     printf("+");
@@ -54,7 +54,7 @@ void print_title_box_ex(const char* title, int boxWidth) {
     printf("+\n");
 }
 
-// ±ê×¼ÄÚÈÝ¿ò£¨80¿í¶È£©
+// æ ‡å‡†å†…å®¹æ¡†ï¼ˆ80å®½åº¦ï¼‰
 void print_content_box(const char** lines, int line_count) {
     print_screen_center();
     printf("+");
@@ -70,7 +70,7 @@ void print_content_box(const char** lines, int line_count) {
     printf("+\n");
 }
 
-// ×Ô¶¨Òå¿í¶ÈÄÚÈÝ¿ò
+// è‡ªå®šä¹‰å®½åº¦å†…å®¹æ¡†
 void print_content_box_ex(const char** lines, int line_count, int boxWidth) {
     int contentWidth = boxWidth - 4;
     print_screen_center_ex(boxWidth);
@@ -87,13 +87,13 @@ void print_content_box_ex(const char** lines, int line_count, int boxWidth) {
     printf("+\n");
 }
 
-// ×´Ì¬ÌáÊ¾¿ò£¨È«ÏµÍ³Í³Ò»£©
+// çŠ¶æ€æç¤ºæ¡†ï¼ˆå…¨ç³»ç»Ÿç»Ÿä¸€ï¼‰
 void print_status_box(const char* type, const char* msg) {
     const char* lines[2] = { type, msg };
     print_content_box(lines, 2);
 }
 
-// ¼ÆËã±í¸ñ×Ü¿í¶È
+// è®¡ç®—è¡¨æ ¼æ€»å®½åº¦
 static int sum_table_width(const int* cols, int n_cols) {
     int total = 0;
     for (int i = 0; i < n_cols; i++) {
@@ -103,7 +103,7 @@ static int sum_table_width(const int* cols, int n_cols) {
     return total;
 }
 
-// ±ê×¼±í¸ñ·Ö¸ôÏß£¨80¿í¶È£©
+// æ ‡å‡†è¡¨æ ¼åˆ†éš”çº¿ï¼ˆ80å®½åº¦ï¼‰
 void print_table_sep(const int* cols, int n_cols) {
     int table_width = sum_table_width(cols, n_cols);
     int center_pad = (BOX_WIDTH - table_width) / 2;
@@ -117,7 +117,7 @@ void print_table_sep(const int* cols, int n_cols) {
     printf("\n");
 }
 
-// ×Ô¶¨Òå¿í¶È±í¸ñ·Ö¸ôÏß
+// è‡ªå®šä¹‰å®½åº¦è¡¨æ ¼åˆ†éš”çº¿
 void print_table_sep_ex(const int* cols, int n_cols, int boxWidth) {
     int table_width = sum_table_width(cols, n_cols);
     int center_pad = (boxWidth - table_width) / 2;
@@ -131,7 +131,7 @@ void print_table_sep_ex(const int* cols, int n_cols, int boxWidth) {
     printf("\n");
 }
 
-// ±ê×¼±í¸ñÐÐ£¨80¿í¶È£©
+// æ ‡å‡†è¡¨æ ¼è¡Œï¼ˆ80å®½åº¦ï¼‰
 void print_table_row(const int* cols, const AlignType* aligns, const char** data, int n_cols) {
     int table_width = sum_table_width(cols, n_cols);
     int center_pad = (BOX_WIDTH - table_width) / 2;
@@ -157,7 +157,7 @@ void print_table_row(const int* cols, const AlignType* aligns, const char** data
     printf("\n");
 }
 
-// ×Ô¶¨Òå¿í¶È±í¸ñÐÐ
+// è‡ªå®šä¹‰å®½åº¦è¡¨æ ¼è¡Œ
 void print_table_row_ex(const int* cols, const AlignType* aligns, const char** data, int n_cols, int boxWidth) {
     int table_width = sum_table_width(cols, n_cols);
     int center_pad = (boxWidth - table_width) / 2;
