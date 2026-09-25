@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// ==================== Í¨ÓÃ´òÓ¡¸¨Öúº¯Êý£¨Óësystem/prescriptionÄ£¿é100%Í³Ò»£¬80¿í¶È£©====================
+// ==================== é€šç”¨æ‰“å°è¾…åŠ©å‡½æ•°ï¼ˆä¸Žsystem/prescriptionæ¨¡å—100%ç»Ÿä¸€ï¼Œ80å®½åº¦ï¼‰====================
 #define BOX_WIDTH 80
 #define SCREEN_WIDTH 100
 
@@ -68,22 +68,22 @@ int AddRegistration(RegistrationNode reg) {
     return 1;
 }
 
-// ¡¾ÐÞ¸Ä¡¿PrintDoctorRegList£ºÏÔÊ¾»¼ÕßÐÕÃû¡¢¸ñÊ½Í³Ò»80¿í¶È¡¢²ÎÊý¼Óconst
+// ã€ä¿®æ”¹ã€‘PrintDoctorRegListï¼šæ˜¾ç¤ºæ‚£è€…å§“åã€æ ¼å¼ç»Ÿä¸€80å®½åº¦ã€å‚æ•°åŠ const
 void PrintDoctorRegList(const char* doctorId) {
     if (regHead == NULL || regHead->next == NULL || doctorId == NULL) {
-        PRINT_TIP("ÔÝÎÞ´ýÕï»¼Õß£¡");
+        PRINT_TIP("æš‚æ— å¾…è¯Šæ‚£è€…ï¼");
         return;
     }
 
     char title[80];
-    snprintf(title, sizeof(title), "Ò½Éú%s´ýÕï»¼ÕßÁÐ±í", doctorId);
+    snprintf(title, sizeof(title), "åŒ»ç”Ÿ%så¾…è¯Šæ‚£è€…åˆ—è¡¨", doctorId);
     print_title_box(title);
 
     printf("\n");
     print_screen_center();
     printf("+------------+------------+--------------------+------------+\n");
     print_screen_center();
-    printf("|  ¹ÒºÅ±àºÅ  |  »¼Õß±àºÅ  |      »¼ÕßÐÕÃû      |    ×´Ì¬    |\n");
+    printf("|  æŒ‚å·ç¼–å·  |  æ‚£è€…ç¼–å·  |      æ‚£è€…å§“å      |    çŠ¶æ€    |\n");
     print_screen_center();
     printf("+------------+------------+--------------------+------------+\n");
 
@@ -92,10 +92,10 @@ void PrintDoctorRegList(const char* doctorId) {
     while (p) {
         if (strcmp(p->doctorId, doctorId) == 0 && p->status == REG_WAITING) {
             cnt++;
-            // ¡¾ÐÂÔö¡¿Í¨¹ý»¼ÕßID»ñÈ¡»¼ÕßÐÕÃû
+            // ã€æ–°å¢žã€‘é€šè¿‡æ‚£è€…IDèŽ·å–æ‚£è€…å§“å
             PatientNode* pat = FindPatientById(p->patientId);
-            const char* patientName = (pat != NULL) ? pat->name : "Î´Öª»¼Õß";
-            const char* statusStr = "´ýÕï";
+            const char* patientName = (pat != NULL) ? pat->name : "æœªçŸ¥æ‚£è€…";
+            const char* statusStr = "å¾…è¯Š";
 
             print_screen_center();
             printf("| %-10s | %-10s | %-18s | %-10s |\n",
@@ -108,16 +108,16 @@ void PrintDoctorRegList(const char* doctorId) {
     printf("+------------+------------+--------------------+------------+\n");
 
     if (cnt == 0) {
-        PRINT_TIP("ÔÝÎÞ´ýÕï»¼Õß£¡");
+        PRINT_TIP("æš‚æ— å¾…è¯Šæ‚£è€…ï¼");
     }
     else {
         char msg[80];
-        snprintf(msg, sizeof(msg), "¹²%dÃû´ýÕï»¼Õß", cnt);
+        snprintf(msg, sizeof(msg), "å…±%dåå¾…è¯Šæ‚£è€…", cnt);
         PRINT_TIP(msg);
     }
 }
 
-// ¡¾ÐÂÔö¡¿°´Ò½ÉúID»ñÈ¡ÏÂÒ»¸ö´ýÕï»¼Õß£¨°´¹ÒºÅÊ±¼äÅÅÐò£¬×´Ì¬ÎªWaiting£©
+// ã€æ–°å¢žã€‘æŒ‰åŒ»ç”ŸIDèŽ·å–ä¸‹ä¸€ä¸ªå¾…è¯Šæ‚£è€…ï¼ˆæŒ‰æŒ‚å·æ—¶é—´æŽ’åºï¼ŒçŠ¶æ€ä¸ºWaitingï¼‰
 RegistrationList GetNextWaitingRegByDoctorId(const char* doctorId) {
     if (regHead == NULL || regHead->next == NULL || doctorId == NULL) {
         return NULL;
@@ -126,7 +126,7 @@ RegistrationList GetNextWaitingRegByDoctorId(const char* doctorId) {
     RegistrationList nextReg = NULL;
     RegistrationList p = regHead->next;
 
-    // ±éÀúÕÒµ½µÚÒ»¸ö£¨°´Á´±íË³Ðò£¬¼´¹ÒºÅË³Ðò£©´ýÕï»¼Õß
+    // éåŽ†æ‰¾åˆ°ç¬¬ä¸€ä¸ªï¼ˆæŒ‰é“¾è¡¨é¡ºåºï¼Œå³æŒ‚å·é¡ºåºï¼‰å¾…è¯Šæ‚£è€…
     while (p != NULL) {
         if (strcmp(p->doctorId, doctorId) == 0 && p->status == REG_WAITING) {
             nextReg = p;
