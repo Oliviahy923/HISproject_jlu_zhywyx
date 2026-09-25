@@ -1,0 +1,218 @@
+
+=======================System Start[2026-04-18 13:32:14]========================
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-18 13:32:14] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-18 13:33:22] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：DOC001，角色：2，登录成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: DOC001 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-18 13:34:05] [INFO] Operator: DOC001 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-19 19:11:08]========================
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-19 19:11:08] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-19 19:11:39] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：admin，角色：1，登录成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: admin | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-19 19:12:46] [INFO] Operator: admin | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-19 19:12:51]========================
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-19 19:12:51] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-19 19:12:58] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：DOC001，角色：2，登录成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: DOC001 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-19 19:14:36] [INFO] Operator: DOC001 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-19 19:14:39]========================
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-19 19:14:39] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-19 19:14:44] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：张，角色：3，登录成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 张 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-19 19:15:09] [INFO] Operator: 张 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-19 19:15:15]========================
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-19 19:15:15] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-19 19:15:25] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：P023，角色：4，登录成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: P023 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-19 21:43:05] [INFO] Operator: P023 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-19 21:43:18]========================
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-19 21:43:18] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-19 21:43:29] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：admin，角色：1，登录成功
+[2026-04-19 21:51:19] [INFO] Operator: 用户 | Action: 打印所有药品 | Result: 成功
+[2026-04-19 21:52:37] [INFO] Operator: 用户 | Action: 打印所有床位 | Result: 成功
+[2026-04-19 21:57:35] [INFO] Operator: 用户 | Action: 打印所有床位 | Result: 成功
+[2026-04-19 22:02:50] [INFO] Operator: 系统 | Action: 获取处方总费用 | Result: 成功获取处方总费用：0.00
+[2026-04-19 22:02:51] [INFO] Operator: admin | Action: 经营数据统计 | Result: 成功
+
+=======================System Start[2026-04-20 07:55:40]========================
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-20 07:55:40] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-20 07:56:09] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：admin，角色：1，登录成功
+[2026-04-20 08:02:00] [INFO] Operator: 管理员 | Action: 生成药品库存报表 | Result: 成功
+[2026-04-20 08:09:57] [INFO] Operator: 管理员 | Action: 生成床位使用报表 | Result: 成功
+[2026-04-20 08:11:27] [INFO] Operator: 管理员 | Action: 统计全院床位使用率 | Result: 成功
+[2026-04-20 08:18:52] [INFO] Operator: 管理员 | Action: 生成药品库存报表 | Result: 成功
+[2026-04-20 08:18:58] [INFO] Operator: 管理员 | Action: 生成床位使用报表 | Result: 成功
+[2026-04-20 08:18:58] [INFO] Operator: 用户 | Action: 统计药品消耗TOP10 | Result: 成功
+[2026-04-20 08:18:58] [INFO] Operator: 管理员 | Action: 统计全院床位使用率 | Result: 成功
+[2026-04-20 08:18:58] [INFO] Operator: admin | Action: 导出报表 | Result: 所有报表导出成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: admin | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-20 08:21:02] [INFO] Operator: admin | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-20 08:21:06]========================
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-20 08:21:07] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-20 08:21:56] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：DOC001，角色：2，登录成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: DOC001 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-20 08:33:25] [INFO] Operator: DOC001 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-20 08:33:28]========================
+[2026-04-20 08:33:28] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-20 08:33:28] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-20 08:33:28] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-20 08:33:28] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-20 08:33:29] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-20 08:33:29] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-20 08:33:47] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：药房，角色：3，登录成功
+[2026-04-20 08:36:59] [INFO] Operator: 用户 | Action: 打印所有药品 | Result: 成功
+[2026-04-20 08:42:30] [INFO] Operator: 系统 | Action: 获取处方总费用 | Result: 成功获取处方总费用：0.00
+[2026-04-20 08:42:30] [INFO] Operator: 药房 | Action: 经营数据统计 | Result: 成功
+[2026-04-20 08:46:13] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 药房 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-20 08:46:14] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-20 08:46:14] [INFO] Operator: 药房 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-20 08:46:19]========================
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-20 08:46:19] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-04-20 08:50:29] [INFO] Operator: 系统 | Action: 用户登录 | Result: 用户：P023，角色：4，登录成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: P023 | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-04-20 08:58:17] [INFO] Operator: P023 | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-04-20 10:52:03]========================
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-04-20 10:52:03] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+
+=======================System Start[2026-09-25 17:25:40]========================
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-09-25 17:25:40] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator:  | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-09-25 17:26:04] [INFO] Operator:  | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
+
+=======================System Start[2026-09-25 17:26:07]========================
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 初始化药品链表 | Result: 成功
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 初始化处方链表 | Result: 成功
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 初始化床位链表 | Result: 成功
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 加载处方数据 | Result: 成功加载0条，跳过0条
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 加载床位数据 | Result: 成功加载10条
+[2026-09-25 17:26:07] [INFO] Operator: 系统 | Action: 系统初始化 | Result: 所有模块初始化完成，数据加载成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 保存药品数据到文件 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 保存处方数据 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 保存床位数据 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator:  | Action: 手动保存数据 | Result: 所有数据保存成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 释放床位链表内存 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 释放处方链表内存 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator: 系统 | Action: 释放药品链表内存 | Result: 成功
+[2026-09-25 17:26:26] [INFO] Operator:  | Action: 系统退出 | Result: 系统安全退出，所有内存已释放
