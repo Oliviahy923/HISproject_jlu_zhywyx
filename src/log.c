@@ -1,11 +1,11 @@
-// ÏµÍ³±ê×¼Í·ÎÄ¼ş£¨ÓÅÏÈÒıÈë£¬CÓïÑÔ¹æ·¶£©
+// ç³»ç»Ÿæ ‡å‡†å¤´æ–‡ä»¶ï¼ˆä¼˜å…ˆå¼•å…¥ï¼ŒCè¯­è¨€è§„èŒƒï¼‰
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #include <locale.h>
 #include <stdarg.h>
-// ×Ô¶¨ÒåÍ·ÎÄ¼ş
+// è‡ªå®šä¹‰å¤´æ–‡ä»¶
 #include "common.h"
 #include "safe_utils.h"
 #include "log.h"
@@ -13,14 +13,14 @@
 static int logLocaleInited = 0;
 #define INIT_LOG_LOCALE() do { if(!logLocaleInited) { setlocale(LC_ALL, "zh_CN.GBK"); logLocaleInited=1; } } while(0)
 
-// ÈÕÖ¾ÅäÖÃºê¶¨Òå
-#define LOG_FILE_NAME     "system_log.txt"    // ĞŞ¸´ÎÄ¼şÃû±ÊÎó
-#define MAX_LOG_LINE_LEN  1024                // µ¥ÌõÈÕÖ¾×î´ó³¤¶È
+// æ—¥å¿—é…ç½®å®å®šä¹‰
+#define LOG_FILE_NAME     "system_log.txt"    // ä¿®å¤æ–‡ä»¶åç¬”è¯¯
+#define MAX_LOG_LINE_LEN  1024                // å•æ¡æ—¥å¿—æœ€å¤§é•¿åº¦
 
-// ³õÊ¼»¯ÈÕÖ¾Ä£¿é
+// åˆå§‹åŒ–æ—¥å¿—æ¨¡å—
 void InitLog() {
-    INIT_LOG_LOCALE(); // ĞÂÔö£ºµ÷ÓÃ±àÂë³õÊ¼»¯
-    // ==================== ĞŞ¸Ä1£ºÉ¾³ı ,ccs=GBK ====================
+    INIT_LOG_LOCALE(); // æ–°å¢ï¼šè°ƒç”¨ç¼–ç åˆå§‹åŒ–
+    // ==================== ä¿®æ”¹1ï¼šåˆ é™¤ ,ccs=GBK ====================
     FILE* fp = fopen(LOG_FILE_NAME, "a");
     if (fp == NULL) {
         printf("Warning: Log file creation failed, subsequent operations will not be recorded!\n");
@@ -31,14 +31,14 @@ void InitLog() {
     fclose(fp);
 }
 
-// Ğ´Èë²Ù×÷ÈÕÖ¾º¯Êı
+// å†™å…¥æ“ä½œæ—¥å¿—å‡½æ•°
 void WriteLog(const char* level, const char* operater, const char* action, const char* result) {
     INIT_LOG_LOCALE();
     if (!CheckNullPtr(4, level, operater, action, result)) {
         return;
     }
 
-    // ==================== ĞŞ¸Ä2£ºÉ¾³ı ,ccs=GBK ====================
+    // ==================== ä¿®æ”¹2ï¼šåˆ é™¤ ,ccs=GBK ====================
     FILE* fp = fopen(LOG_FILE_NAME, "a");
     if (fp == NULL) {
         printf("Warning: Log write failed!\n");
@@ -53,10 +53,10 @@ void WriteLog(const char* level, const char* operater, const char* action, const
     fclose(fp);
 }
 
-// ´òÓ¡²Ù×÷ÈÕÖ¾º¯Êı
+// æ‰“å°æ“ä½œæ—¥å¿—å‡½æ•°
 void PrintAllLog() {
     INIT_LOG_LOCALE();
-    // ==================== ĞŞ¸Ä3£ºÉ¾³ı ,ccs=GBK ====================
+    // ==================== ä¿®æ”¹3ï¼šåˆ é™¤ ,ccs=GBK ====================
     FILE* fp = fopen(LOG_FILE_NAME, "r");
     if (fp == NULL) {
         printf("No system operation logs!\n");
@@ -75,10 +75,10 @@ void PrintAllLog() {
     WriteLog(LOG_LEVEL_INFO, "Admin", "Print Log", "Success");
 }
 
-// Çå¿ÕÈÕÖ¾º¯Êı
+// æ¸…ç©ºæ—¥å¿—å‡½æ•°
 void ClearAllLog() {
     INIT_LOG_LOCALE();
-    // ==================== ĞŞ¸Ä4£ºÉ¾³ı ,ccs=GBK ====================
+    // ==================== ä¿®æ”¹4ï¼šåˆ é™¤ ,ccs=GBK ====================
     FILE* fp = fopen(LOG_FILE_NAME, "w");
     if (fp == NULL) {
         printf("Log clear failed!\n");
