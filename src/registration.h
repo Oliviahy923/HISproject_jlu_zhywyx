@@ -10,11 +10,11 @@ typedef struct _Registration {
     char deptId[MAX_ID_LEN];
     char createTime[MAX_DATA_LEN];
     float fee;
-    RegStatus status; // Ö±½Ó¸´ÓÃcommon.hÀïµÄRegStatusÃ¶¾Ù
+    RegStatus status; // ç›´æ¥å¤ç”¨common.hé‡Œçš„RegStatusæšä¸¾
     struct _Registration* next;
 } RegistrationNode, * RegistrationList;
 
-// ¡¾ºËĞÄĞŞ¸´¡¿É¾µôÖØ¸´µÄPrintDoctorRegListÉùÃ÷£¬½ö±£Áôconst°æ±¾
+// ã€æ ¸å¿ƒä¿®å¤ã€‘åˆ æ‰é‡å¤çš„PrintDoctorRegListå£°æ˜ï¼Œä»…ä¿ç•™constç‰ˆæœ¬
 void InitRegistrationList();
 int AddRegistration(RegistrationNode reg);
 int CheckRegExist(char* regId);
@@ -24,9 +24,9 @@ int LoadRegistrationFromFile(char* filename);
 void FreeRegistrationList();
 RegistrationList FindRegByPatient(char* patientId);
 RegistrationList FindRegById(char* regId);
-// ¡¾ĞÂÔö¡¿°´Ò½ÉúID»ñÈ¡ÏÂÒ»¸ö´ıÕï»¼Õß£¨°´¹ÒºÅÊ±¼äÅÅĞò£¬×´Ì¬ÎªWaiting£©
+// ã€æ–°å¢ã€‘æŒ‰åŒ»ç”ŸIDè·å–ä¸‹ä¸€ä¸ªå¾…è¯Šæ‚£è€…ï¼ˆæŒ‰æŒ‚å·æ—¶é—´æ’åºï¼ŒçŠ¶æ€ä¸ºWaitingï¼‰
 RegistrationList GetNextWaitingRegByDoctorId(const char* doctorId);
-// ¡¾Î¨Ò»ÉùÃ÷¡¿PrintDoctorRegList²ÎÊı¼Óconst£¬ºÍÊµÏÖÍêÈ«Æ¥Åä
+// ã€å”¯ä¸€å£°æ˜ã€‘PrintDoctorRegListå‚æ•°åŠ constï¼Œå’Œå®ç°å®Œå…¨åŒ¹é…
 void PrintDoctorRegList(const char* doctorId);
 
 #endif
